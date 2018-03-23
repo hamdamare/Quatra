@@ -6,4 +6,54 @@
     android:layout_height="match_parent"
     tools:context="com.example.hamdamare.quatras.FoodActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background = "@color/colorPrimary"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/mcDoButton"
+            android:layout_width="match_parent"
+            android:onClick="openM"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:text="McDonalds" />
+
+        <Button
+            android:id="@+id/subButton"
+            android:layout_width="match_parent"
+            android:onClick="openS"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:text="SUBWAY"/>
+
+        <Button
+            android:id="@+id/dairyButton"
+            android:layout_width="match_parent"
+            android:onClick="openD"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:text="DAIRY QUEEN" />
+
+        <Button
+            android:id="@+id/freshiiButton"
+            android:layout_width="match_parent"
+            android:onClick="openF"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:text="FRESHII" />
+
+        <Button
+            android:id="@+id/burgerButton"
+            android:layout_width="match_parent"
+            android:onClick="openB"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:text="BURGER KING" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
