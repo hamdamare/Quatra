@@ -14,6 +14,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="44dp"
         android:background="@drawable/entertainment"
+        android:onClick="entertainment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/categTxt" />
 
@@ -25,6 +26,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="44dp"
         android:background="@drawable/beauty"
+        android:onClick="beauty"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.654"
         app:layout_constraintStart_toEndOf="@+id/entertainmentBtn"
@@ -38,6 +40,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/grocery"
+        android:onClick="grocery"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/foodBtn"
@@ -52,6 +55,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/clothing"
+        android:onClick="clothing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.608"
@@ -67,6 +71,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/burger"
+        android:onClick="food"
         app:layout_constraintEnd_toStartOf="@+id/techBtn"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,6 +84,7 @@
         android:layout_marginEnd="28dp"
         android:layout_marginTop="36dp"
         android:background="@drawable/tech"
+        android:onClick="technology"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/beautyBtn" />
 
