@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".logoActivity"></activity>
+        <activity android:name=".CategoriesActivity" />
+        <activity android:name=".CompanysActivity" />
+        <activity android:name=".TechnologyActivity" />
+        <activity android:name=".FoodActivity" />
+        <activity android:name=".ClothingActivity" />
+        <activity android:name=".GroceryActivity" />
+        <activity android:name=".EntertainmentActivity" />
+        <activity android:name=".BeautyActivity"></activity>
     </application>
 
 </manifest>
