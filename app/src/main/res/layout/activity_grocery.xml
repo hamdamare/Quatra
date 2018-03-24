@@ -6,4 +6,47 @@
     android:layout_height="match_parent"
     tools:context="com.example.hamdamare.quatras.GroceryActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="101dp">
+
+        <Button
+            android:id="@+id/bbBtn"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:background="@color/colorPrimary"
+            android:onClick="bulkBarn"
+            android:text="Bulk Barn" />
+
+        <Button
+            android:id="@+id/bmoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="@color/colorPrimary"
+            android:onClick="bmo"
+            android:text="BMO" />
+
+        <Button
+            android:id="@+id/globeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="@color/colorPrimary"
+            android:onClick="globe"
+            android:text="The Globe and Mail" />
+
+        <Button
+            android:id="@+id/pcBtn"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@color/colorPrimary"
+            android:onClick="pc"
+            android:text="Pc financial" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

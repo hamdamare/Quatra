@@ -7,17 +7,93 @@
     tools:context="com.example.hamdamare.quatras.ClothingActivity">
 
     <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="551dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background = "@color/colorPrimary"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp"
         tools:ignore="MissingConstraints">
 
         <Button
-            android:id="@+id/urbanBtn"
+            android:id="@+id/uoBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="uo"
             android:text="Urban Outfitters" />
+
+        <Button
+            android:id="@+id/bananaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="bananaRep"
+            android:text="Banana Republic" />
+
+        <Button
+            android:id="@+id/monacoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="clubMonaco"
+            android:text="Club Monaco" />
+
+        <Button
+            android:id="@+id/hmBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="hm"
+            android:text="H&amp;M" />
+
+        <Button
+            android:id="@+id/jcrewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="jCrew"
+            android:text="Jcrew" />
+
+        <Button
+            android:id="@+id/spadeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="kateSpade"
+            android:text="Kate Spade" />
+
+        <Button
+            android:id="@+id/leviBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="levi"
+            android:text="Levi's" />
+
+        <Button
+            android:id="@+id/rootBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="roots"
+            android:text="Roots" />
+
+        <Button
+            android:id="@+id/tomBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="toms"
+            android:text="TOMS" />
+
+        <Button
+            android:id="@+id/topBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="topshop"
+            android:text="TopShop/Topman" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

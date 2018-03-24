@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".CategoriesActivity" />
-        <activity android:name=".CompanysActivity" />
         <activity android:name=".TechnologyActivity" />
         <activity android:name=".FoodActivity" />
         <activity android:name=".ClothingActivity" />

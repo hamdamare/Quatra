@@ -6,4 +6,47 @@
     android:layout_height="match_parent"
     tools:context="com.example.hamdamare.quatras.TechnologyActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="8dp"
+
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/adobeButton"
+            android:layout_width="match_parent"
+            android:onClick="openAA"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:text="ADOBE" />
+
+        <Button
+            android:id="@+id/bestbutton"
+            android:layout_width="match_parent"
+            android:onClick="openBB"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:text="BESTBUY" />
+
+        <Button
+            android:id="@+id/appleBUTTON"
+            android:onClick="openA"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:text="APPLE" />
+
+        <Button
+            android:id="@+id/micButton"
+            android:layout_width="match_parent"
+            android:onClick="openMC"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="MICROSOFT" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

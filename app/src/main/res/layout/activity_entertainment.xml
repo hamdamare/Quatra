@@ -6,4 +6,86 @@
     android:layout_height="match_parent"
     tools:context="com.example.hamdamare.quatras.EntertainmentActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background = "@color/colorPrimary"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/balletbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="ballet"
+            android:text="National Ballet of Canada" />
+
+        <Button
+            android:id="@+id/recBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="recroom"
+            android:text="Rec ROom" />
+
+        <Button
+            android:id="@+id/operaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="opera"
+            android:text="Canadian Opera Company" />
+
+        <Button
+            android:id="@+id/CineplexBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="cineplex"
+            android:text="Cineplex" />
+
+        <Button
+            android:id="@+id/greyhoundBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="greyhound"
+            android:text="GREY HOUND TRAVEL" />
+
+        <Button
+            android:id="@+id/studentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="students"
+            android:text="Students Universe Travel" />
+
+        <Button
+            android:id="@+id/journalBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="journal"
+            android:text="The Wall Street Journal" />
+
+        <Button
+            android:id="@+id/timeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="times"
+            android:text="The New York Times" />
+
+        <Button
+            android:id="@+id/exBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="fedEX"
+            android:text="FedEx online shipping" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
