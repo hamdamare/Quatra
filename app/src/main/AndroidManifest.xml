@@ -2,6 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hamdamare.quatras">
 
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,7 +35,17 @@
         <activity android:name=".ClothingActivity" />
         <activity android:name=".GroceryActivity" />
         <activity android:name=".EntertainmentActivity" />
-        <activity android:name=".BeautyActivity"></activity>
+        <activity android:name=".BeautyActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBUK1Ra_68fVbiJxONpAYGw-ohSctP_-Rs" />
+
+        <activity
+            android:name=".Maps"
+            android:label="Map" />
+        <activity android:name=".EditTask" />
+
     </application>
 
 </manifest>
